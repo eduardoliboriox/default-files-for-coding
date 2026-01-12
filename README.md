@@ -66,15 +66,13 @@ project/
 
 ```bash
 pip install -r requirements.txt
-python app.py
+python run.py
 ```
-
 ---
 
 ## 🔗 Acesso ao Sistema (Deploy)
 
-O sistema está disponível online pelo Render:
-Uso contramedidas até na versão free para a página não fechar por inatividade, caso feche, aguarde 50 segundos.
+O sistema está disponível online pelo Railway:
 
 ➡️ ** **
 
