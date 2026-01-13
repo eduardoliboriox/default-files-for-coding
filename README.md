@@ -65,29 +65,28 @@ project/
 ## ▶️ Como Rodar o Projeto
 
 ```
-1. Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+1. Clonar o repositório
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
 
 2. Criar e ativar o ambiente virtual
-python -m venv venv
-venv\Scripts\activate
+   python -m venv venv
+   venv\Scripts\activate
 
-3. Instale as dependências
-pip install -r requirements.txt
+3. Instalar as dependências
+   pip install -r requirements.txt
 
 4. Configurar variáveis de ambiente
-Crie um arquivo .env na raiz do projeto:
-FLASK_ENV=development
-SECRET_KEY=supersecretkey
-DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+   Crie um arquivo .env na raiz do projeto:
+   FLASK_ENV=development
+   SECRET_KEY=supersecretkey
+            DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 
-5. Rode a aplicação
-python run.py
+5. Rodar a aplicação
+   python run.py
 
-Depois, acesse no navegador:
-http://127.0.0.1:5000
-
+   Depois, acessar no navegador:
+    http://127.0.0.1:5000
 ```
 ---
 
