@@ -66,14 +66,23 @@ project/
 
 ```
 1. Clone o repositório
-git clone
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-2. Instale as dependências
+2. Criar e ativar o ambiente virtual
+python -m venv venv
+venv\Scripts\activate
+
+3. Instale as dependências
 pip install -r requirements.txt
 
-3. Configure o ambiente virtual
+4. Configurar variáveis de ambiente
+Crie um arquivo .env na raiz do projeto:
+FLASK_ENV=development
+SECRET_KEY=supersecretkey
+DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 
-4. Rode local
+5. Rode a aplicação
 python run.py
 
 Depois, acesse no navegador:
