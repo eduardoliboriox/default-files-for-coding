@@ -63,9 +63,12 @@ project/
 ---
 
 ## ▶️ Como Rodar o Projeto
-### 1. Clone o repositório
-git clone
+
 ```
+# Clone o repositório
+git clone
+
+# Instale as 
 pip install -r requirements.txt
 python run.py
 
