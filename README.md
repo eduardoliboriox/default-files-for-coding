@@ -80,13 +80,13 @@ project/
    Crie um arquivo .env na raiz do projeto:
    FLASK_ENV=development
    SECRET_KEY=supersecretkey
-            DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+        DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 
 5. Rodar a aplicação
    python run.py
 
    Depois, acessar no navegador:
-    http://127.0.0.1:5000
+   http://127.0.0.1:5000
 ```
 ---
 
