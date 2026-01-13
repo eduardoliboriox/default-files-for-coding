@@ -51,7 +51,7 @@ project/
 ├─ tests/                     # pytest
 ├─ run.py                     # entrypoint da aplicação
 ├─ requirements.txt
-├─ Procfile                   # Railway
+├─ Procfile                   # Cloud - Railway
 ├─ README.md
 ├─ .env                       # NÃO versionar
 ├─ .gitignore
