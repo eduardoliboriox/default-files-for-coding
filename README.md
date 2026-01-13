@@ -80,7 +80,7 @@ project/
    Crie um arquivo .env na raiz do projeto:
    FLASK_ENV=development
    SECRET_KEY=supersecretkey
-        DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+ DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 
 5. Rodar a aplicação
    python run.py
