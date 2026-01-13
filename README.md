@@ -65,15 +65,20 @@ project/
 ## ▶️ Como Rodar o Projeto
 
 ```
-# Clone o repositório
+1. Clone o repositório
 git clone
 
-# Instale as 
+2. Instale as dependências
 pip install -r requirements.txt
+
+3. Configure o ambiente virtual
+
+4. Rode local
 python run.py
 
 Depois, acesse no navegador:
 http://127.0.0.1:5000
+
 ```
 ---
 
