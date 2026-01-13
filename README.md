@@ -52,7 +52,7 @@ project/
 ├─ run.py                     # entrypoint da aplicação
 ├─ requirements.txt
 ├─ Procfile                   # Cloud - Railway
-├─ README.md
+├─ README.md                  # Documentação principal
 ├─ .env                       # NÃO versionar
 ├─ .gitignore
 └─ pyproject.toml             # opcional
