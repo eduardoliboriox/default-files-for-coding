@@ -2,15 +2,6 @@ Visualize a aplicação real através do link no final deste README.md.
 
 ---
 
-## 🔹 Stack
-- Python 3.11+
-- Flask 2.3+
-- PostgreSQL
-- HTML / CSS / JavaScript
-- Cloud (Railway)
-
----
-
 ## 🔹 Estrutura do projeto
 
 ```
@@ -61,25 +52,35 @@ project/
 ```
 ---
 
-## 📁 Como Rodar
+## ⚙️ Tecnologias Utilizadas
+* Python (Flask)
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* Jinja2
+* LocalStorage
 
-```bash
+---
+
+```
+## ▶️ Como Rodar o Projeto
 pip install -r requirements.txt
 python run.py
+
+Depois, acesse no navegador:
+
+http://127.0.0.1:5000
 ```
 ---
 
-## 🔗 Acesso ao Sistema (Deploy)
-
-O sistema está disponível online pelo Railway:
-
-➡️ ** **
-
----
-
-## 👨‍💻 Autor
-
-* Desenvolvido por **Eduardo Libório**
-* 📧 [eduardosoleno@protonmail.com](mailto:eduardosoleno@protonmail.com)
+## 📌 Observações
+* O sistema não utiliza login
+* Os dados da compra atual ficam salvos localmente no navegador
+* O cadastro de produtos é persistido no banco de dados
+* Projeto ideal para uso pessoal ou familiar
 
 ---
+
+## 👨‍💻 Autor 
+Desenvolvido por Eduardo Libório
+📧 eduardosoleno@protonmail.com
